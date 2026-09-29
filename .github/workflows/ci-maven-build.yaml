@@ -30,7 +30,7 @@ jobs:
       # Step 4: Build the project
       # Option A: Maven (use 'mvnw.cmd' if using the Maven Wrapper)
       - name: Build with Maven
-        run: mvn --batch-mode clean package
+        run: mvn --batch-mode clean compile package --file pom.xml
 
       # Option B: Gradle (uncomment if using Gradle)
       # - name: Build with Gradle
