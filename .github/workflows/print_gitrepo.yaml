@@ -10,5 +10,5 @@ jobs:
           Write-Output "Hello from PowerShell!"
           Write-Host "This prints to console output as well."
           echo "echo works as an alias for Write-Output in PowerShell"
-	run: |
+      - run: |
           echo "This job is now running on a ${{ runner.os }} server hosted by GitHub!"
